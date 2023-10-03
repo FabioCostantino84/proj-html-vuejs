@@ -1,10 +1,14 @@
 <script>
+import MainJubotron from './MainJubotron.vue'
 export default {
     name: 'AppMain',
     data() {
         return {
             
         }
+    },
+    components:{
+        MainJubotron,        
     }
 
 }
@@ -12,6 +16,7 @@ export default {
 
 <template>
     
+    <MainJubotron></MainJubotron>
 
 </template>
 
