@@ -11,7 +11,7 @@ export default {
 </script>
         
 <template>
-    <div class="container bg-transparent">
+    <div class="container bg-transparent position-absolute">
         <div class="row">
             <div class="col-4">
                 <img src="../assets/svg/svg-7.svg" class="" alt="">
@@ -23,7 +23,7 @@ export default {
                     <a class="nav-link" href="#">ABOUT</a>
                     <a class="nav-link" href="#">PROJECTS</a>
                     <a class="nav-link" href="#">RESULTS</a>
-                    <a class="nav-link" href="#">GET IN TOUCH</a>
+                    <a class="nav-link highlight" href="#">GET IN TOUCH</a>
                 </nav>
             </div>
         </div>
@@ -33,6 +33,11 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
+
+.container{
+    top: 60px;
+    left: 350px;
+}
 
 img {
     padding: 15px 40px 15px 15px;
@@ -47,9 +52,11 @@ a {
 
 }
 
-a:hover {
+a:hover, .highlight{
     background-color: $SB_verdeacqua_1;
     color: $SB_grigiochiaro;
     border-radius: 5px;
+
+
 }
 </style>
