@@ -12,6 +12,9 @@ export default {
 <template>
 
     <section class="services">
+        <div class="container">
+            
+        </div>
 
     </section>
     <!-- end sevices -->
@@ -20,5 +23,9 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
+
+.services{
+    background-color: $SB_celestechiaro;
+}
 
 </style>
