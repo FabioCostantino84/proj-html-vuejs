@@ -1,5 +1,6 @@
 <script>
 import MainJubotron from './MainJubotron.vue'
+import MainServices from './MainServices.vue'
 export default {
     name: 'AppMain',
     data() {
@@ -8,7 +9,8 @@ export default {
         }
     },
     components:{
-        MainJubotron,        
+        MainJubotron, 
+        MainServices       
     }
 
 }
@@ -17,6 +19,8 @@ export default {
 <template>
     
     <MainJubotron></MainJubotron>
+
+    <MainServices></MainServices>
 
 </template>
 
