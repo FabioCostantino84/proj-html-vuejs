@@ -11,7 +11,13 @@ export default {
 
 <template>
 
-<section class="jumbotron"></section>
+<section class="jumbotron">
+
+    <div class="second_img bg_img_1">
+        
+    </div>
+
+</section>
 
 </template>
 
@@ -19,10 +25,16 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.jumbotron{
-    background-image: url(../assets/img/bg-parallax.png);
+.second_img{
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/bg-parallax.png); 
     background-size: 210%;
     background-position: bottom;
+    height: 1050px;
+}
+.jumbotron{
+    background-image: url(../assets/svg/sfondo.svg); 
+    background-size: cover;
     height: 1050px;
 }
 

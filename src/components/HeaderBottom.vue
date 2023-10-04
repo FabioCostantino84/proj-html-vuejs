@@ -11,7 +11,7 @@ export default {
 </script>
         
 <template>
-    <div class="container bg-transparent position-absolute">
+    <div class="container bg-transparent">
         <div class="row">
             <div class="col-4">
                 <img src="../assets/svg/svg-7.svg" class="" alt="">
