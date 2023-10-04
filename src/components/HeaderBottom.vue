@@ -11,7 +11,7 @@ export default {
 </script>
         
 <template>
-    <div class="container bg-transparent">
+    <div class="container bg-transparent position-relative">
         <div class="row">
             <div class="col-4">
                 <img src="../assets/svg/svg-7.svg" class="" alt="">
@@ -34,10 +34,10 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.container{
+/* .container{
     top: 60px;
     left: 350px;
-}
+} */
 
 img {
     padding: 15px 40px 15px 15px;
