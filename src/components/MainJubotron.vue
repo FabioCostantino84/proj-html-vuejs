@@ -46,6 +46,9 @@ export default {
     background-image: url(../assets/svg/sfondo.svg);
     background-size: cover;
     height: 955px;
+    position: absolute;
+    top: 60px;
+    left: 350px;
 }
 .second_img {
     background-repeat: no-repeat;
