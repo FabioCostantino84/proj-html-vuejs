@@ -45,10 +45,8 @@ export default {
 .jumbotron {
     background-image: url(../assets/svg/sfondo.svg);
     background-size: cover;
-    height: 955px;
-    position: absolute;
-    top: 60px;
-    left: 350px;
+    height: 955px;  
+    margin: -88px 0 0;
 }
 .second_img {
     background-repeat: no-repeat;
@@ -87,6 +85,8 @@ a {
     font-size: large;
     font-weight: 500;
     padding: 10px 20px;
+    border: 1px solid;
+    border-color: $SB_verdeacqua_1;
 
 }
 
