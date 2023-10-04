@@ -27,22 +27,93 @@ export default {
                     </div>
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-end">
-                    <div>
+                    <div class="see_all">
                         <a class="btn" href="#" role="button">SEE ALL</a>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-1.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-                        
-                        <div class="container text-start px-5 card-body text-center">
+
+                        <div class="container text-start px-5 card-body">
                             <h5>Audit & Assurance</h5>
+                            <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /first card -->
+
+                <div class="col-4 px-4 py-4">
+                    <div class="card border-0">
+                        <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
+                            <img src="../assets/svg/svg-2.svg" class="card-img-top" alt="svg">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="container text-start px-5 card-body">
+                            <h5>Finacial Advisory</h5>
+                            <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 px-4 py-4">
+                    <div class="card border-0">
+                        <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
+                            <img src="../assets/svg/svg-3.svg" class="card-img-top" alt="svg">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="container text-start px-5 card-body">
+                            <h5>Analytics and M&A</h5>
+                            <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 px-4 py-4">
+                    <div class="card border-0">
+                        <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
+                            <img src="../assets/svg/svg-4.svg" class="card-img-top" alt="svg">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="container text-start px-5 card-body">
+                            <h5>Middle Marketing</h5>
+                            <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 px-4 py-4">
+                    <div class="card border-0">
+                        <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
+                            <img src="../assets/svg/svg-5.svg" class="card-img-top" alt="svg">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="container text-start px-5 card-body">
+                            <h5>Legal Consulting</h5>
+                            <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 px-4 py-4">
+                    <div class="card border-0">
+                        <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
+                            <img src="../assets/svg/svg-6.svg" class="card-img-top" alt="svg">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="container text-start px-5 card-body">
+                            <h5>Regulatory Risk</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -99,8 +170,14 @@ p {
     font-size: 20px;
 }
 
-.card{
+.see_all{
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.card {
     border-radius: 10px;
+    height: 100%;
 }
 
 img {
