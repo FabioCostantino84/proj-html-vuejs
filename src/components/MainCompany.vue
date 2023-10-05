@@ -11,15 +11,15 @@ export default {
 
 <template>
     <div class="container-fluid d-flex p-0">
-        <div class="debug container-fluid">
-            <div class="container w-75 text-white">
+        <div class="left_container container-fluid">
+            <div class="container text-white">
                 <div class="row">
                     <div class="col">
                         <div class="card bg-transparent border-0">
-                            <div class="card-body header_card">
+                            <div class="card-body px-2 header_card">
                                 ABOUT THE NETWORK
                             </div>
-                            <div class="card-body">
+                            <div class="card-body px-2">
                                 <h3 class="card-title"><span class="px-3">The</span> Company</h3>
                                 <p class="card-text py-3">For 12 years we have been providing audit and warranty, financial advice, risk advice, taxes and related services to select clients..</p>
                             </div>
@@ -28,7 +28,7 @@ export default {
                 </div>
 
                 <div class="row">
-                    <div class="col-6 ps-4">
+                    <div class="my_col col-6 ps-4">
                         <div class="card border-0 bg-transparent d-flex">
                             <div class="icon d-flex align-items-baseline">
                                 <i class="fa-regular fa-pen-to-square me-2"></i>
@@ -38,38 +38,38 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-6 ps-4">
+                    <div class="my_col col-6 ps-4">
                         <div class="card border-0 bg-transparent d-flex">
                             <div class="icon d-flex align-items-baseline">
                                 <i class="fa-regular fa-pen-to-square me-2"></i>
-                                <h6>Tradition</h6>
+                                <h6>Security</h6>
                             </div>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div class="col-6 ps-4 pb-3">
+                    <div class="my_col col-6 ps-4 pb-3">
                         <div class="card border-0 bg-transparent d-flex">
                             <div class="icon d-flex align-items-baseline">
                                 <i class="fa-regular fa-pen-to-square me-2"></i>
-                                <h6>Tradition</h6>
+                                <h6>Certificate</h6>
                             </div>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div class="col-6 ps-4 pb-3">
+                    <div class="my_col col-6 ps-4 pb-3">
                         <div class="card border-0 bg-transparent d-flex">
                             <div class="icon d-flex align-items-baseline">
                                 <i class="fa-regular fa-pen-to-square me-2"></i>
-                                <h6>Tradition</h6>
+                                <h6>Expertise</h6>
                             </div>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="bottoni p-3">
+                <div class="my_button px-2">
                     <a href="#" class="card-link highlight">GET IN TOUCH</a>
                     <a href="#" class="more card-link mx-4">READ MORE</a>
                 </div>
@@ -83,19 +83,20 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.debug {
+.left_container {
     background-color: $SB_blu;
-    height: 875px;
+    height: 930px;
     width: 100%;
 }
 
 .container{
+    width: 70%;
     margin-right: -50px;
 }
 
 .bg_img {
     background-image: url(../assets/img/about-4.jpg);
-    height: 875px;
+    height: 930px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,8 +143,14 @@ p {
     padding-bottom: 50px;
 }
 
+.my_col{
+    margin-right: -40px;
+}
+
 .card {
     height: 100%;
+    padding-top: 28px;
+    padding-bottom: 30px;
 }
 
 img {
@@ -160,6 +167,11 @@ h6 {
     color: $SB_grigiochiaro;
     font-weight: 700;
     font-size: 25px;
+}
+
+.my_button{
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 a {
@@ -184,7 +196,7 @@ a:hover,
 
 .more {
     text-decoration: none;
-    color: $SB_verdeacqua_1;
+    color: $SB_grigiochiaro;
     font-size: large;
     font-weight: 500;
     font-size: 20px;
