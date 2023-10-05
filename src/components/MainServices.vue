@@ -31,16 +31,13 @@ export default {
                         <a class="btn" href="#" role="button">SEE ALL</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
                 <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-1.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-
+    
                         <div class="container text-start px-5 card-body">
                             <h5>Audit & Assurance</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -48,70 +45,70 @@ export default {
                     </div>
                 </div>
                 <!-- /first card -->
-
+    
                 <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-2.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-
+    
                         <div class="container text-start px-5 card-body">
                             <h5>Finacial Advisory</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-3.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-
+    
                         <div class="container text-start px-5 card-body">
                             <h5>Analytics and M&A</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-4.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-
+    
                         <div class="container text-start px-5 card-body">
                             <h5>Middle Marketing</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-5.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-
+    
                         <div class="container text-start px-5 card-body">
                             <h5>Legal Consulting</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-4 px-4 py-4">
                     <div class="card border-0">
                         <div class="container px-5 d-flex justify-content-between pt-5 pb-2">
                             <img src="../assets/svg/svg-6.svg" class="card-img-top" alt="svg">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
-
+    
                         <div class="container text-start px-5 card-body">
                             <h5>Regulatory Risk</h5>
                             <p class="pt-3 card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -119,6 +116,7 @@ export default {
                     </div>
                 </div>
             </div>
+            <!-- / row -->
         </div>
 
     </section>
@@ -194,5 +192,8 @@ h5 {
     color: $SB_blu;
     font-weight: 700;
     font-size: 28px;
+}
+.row{
+    padding-bottom: 150px;
 }
 </style>
