@@ -11,9 +11,9 @@ export default {
 
 <template>
     <div id="icon">
-        <div class="container">
-            <div class="row">
-                <div class="col d-flex align-items-center justify-content-around">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col d-flex align-items-center justify-content-around align-content-center">
                     <img style="width: 95px;" src="../assets/img/logo-4.png" alt="">
                     <img style="width: 60px;" src="../assets/img/logo-5.png" alt="">
                     <img style="width: 140px;" src="../assets/img/logo-1.png" alt="">
