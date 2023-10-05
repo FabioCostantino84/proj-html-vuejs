@@ -4,6 +4,7 @@ import MainServices from './MainServices.vue'
 import MainCompany from './MainCompany.vue'
 import MainProjects from './MainProjects.vue'
 import MainResults from './MainResults.vue'
+import MainIcon from './MainIcon.vue'
 export default {
     name: 'AppMain',
     data() {
@@ -16,7 +17,8 @@ export default {
         MainServices,
         MainCompany, 
         MainProjects,
-        MainResults,    
+        MainResults, 
+        MainIcon,   
     }
 
 }
@@ -33,6 +35,8 @@ export default {
     <MainProjects></MainProjects>
 
     <MainResults></MainResults>
+
+    <MainIcon></MainIcon>
 
 </template>
 
