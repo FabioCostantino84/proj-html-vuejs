@@ -35,6 +35,16 @@ export default {
                 </nav>
             </div>
             <!-- / nav projects -->
+
+            <div class="col-4">
+                <div class="card border-0 py-4">
+                    <img src="../assets/img/project-1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay text-center">
+                        <h5 class="card-title">Academic professional program in social media</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- / cards projects -->
         </div>
     </div>
 </template>
@@ -62,6 +72,7 @@ span {
 
 
 }
+
 a {
     color: $SB_grigioscuro;
     font-size: large;
@@ -70,11 +81,27 @@ a {
 
 }
 
-a:hover, .highlight{
+a:hover,
+.highlight {
     background-color: $SB_verdeacqua_2_tras;
     color: $SB_grigioscuro;
     border-radius: 5px;
+}
 
+.card{
+    color: $SB_grigiochiaro;
+    border-radius: 10px;
+}
 
+img{
+    filter: brightness(0.5);
+    border-radius: 15px;
+
+}
+
+h5{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 305px;
 }
 </style>
