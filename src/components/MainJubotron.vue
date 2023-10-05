@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="jumbotron">
+    <div class="jumbotron">
         <div class="second_img">
             <div class="container h-100 mb-5">
                 <div class="row h-100 d-flex justify-content-center align-items-center bg-transparent text-center">
@@ -28,7 +28,7 @@ export default {
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- end jubotron & ready team -->
 </template>
 
