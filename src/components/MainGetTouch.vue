@@ -14,7 +14,7 @@ export default {
 
         <div class="row">
             <div class="col-8">
-                <div class="card bg-transparent border-0">
+                <div class="card bg-transparent border-0 mx-2">
                     <div class="card-body px-2 header_card">
                         ABOUT THE NETWORK
                     </div>
@@ -43,10 +43,14 @@ export default {
 
                 </div>
 
-                <div class="form-floating p-2">
+                <div class="form-floating p-2 mx-2">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                         style="height: 200px"></textarea>
                     <label for="floatingTextarea2">Message</label>
+                </div>
+
+                <div class="see_all ms-3 mt-4">
+                    <a class="btn" href="#" role="button">SEND</a>
                 </div>
 
             </div>
@@ -86,8 +90,25 @@ p {
     font-size: 18px;
 }
 
-input, select {
+input,
+select,
+.form-control {
     background-color: $SB_grigio;
     border-radius: 5px;
+}
+
+.btn {
+    background-color: $SB_verdeacqua_1;
+    color: $SB_grigiochiaro;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: $SB_verdeacqua_1;
+    padding: 8px 30px;
+    font-size: 20px;
+}
+
+.see_all{
+    padding-right: 10px;
+    padding-bottom: 50px;
 }
 </style>
