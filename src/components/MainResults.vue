@@ -53,24 +53,17 @@ export default {
                         <h6 class="card-subtitle mb-2">Country Served</h6>
                     </div>
                 </div>
-
-                
                 <!-- / cards results -->
+
             </div>
         </div>
-
     </div>
-
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.container{
+.container {
     width: 60%;
 }
 
@@ -104,48 +97,18 @@ span {
 }
 
 
-h5{
+h5 {
     font-weight: 700;
     font-size: 40px;
     color: $SB_verdeacqua_2;
     padding-top: 70px;
 }
 
-h6{
+h6 {
     font-weight: 600;
     font-size: 25px;
     color: $SB_grigiochiaro;
-    
+
 
 }
-/*a {
-    color: $SB_grigioscuro;
-    font-size: large;
-    font-weight: 500;
-    padding: 11px 15px;
-
-}
-
-a:hover,
-.highlight {
-    background-color: $SB_verdeacqua_2_tras;
-    color: $SB_grigioscuro;
-    border-radius: 5px;
-}
-
-.card{
-    color: $SB_grigiochiaro;
-    border-radius: 10px;
-}
-
-img{
-    filter: brightness(0.5);
-    border-radius: 15px;
-
-}
-
-
-.row{
-    padding-bottom: 150px;
-} */
 </style>
