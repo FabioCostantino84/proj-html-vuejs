@@ -13,7 +13,7 @@ export default {
     <div class="container">
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-8">
                 <div class="card bg-transparent border-0">
                     <div class="card-body px-2 header_card">
                         ABOUT THE NETWORK
@@ -23,8 +23,34 @@ export default {
                         <p class="card-text py-3">We will responsed to your message as soon as possible.</p>
                     </div>
                 </div>
+
+                <div class="d-flex p-2">
+                    <input type="text" class="form-control p-3 mx-2" placeholder="Name" aria-label="Name">
+                    <input type="email" class="form-control p-3 mx-2" placeholder="Email" aria-label="Email">
+                </div>
+
+                <div class="d-flex p-2">
+                    <input type="text" class="form-control p-3 mx-2" placeholder="Phone" aria-label="Phone">
+                    <!-- <input type="text" class="form-control p-3 mx-2" placeholder="More info" aria-label="More Info"> -->
+
+
+                    <select class="form-select p-3 mx-2" name="" id="">
+                        <option class="" selected>More Info</option>
+                        <option value="">New Delhi</option>
+                        <option value="">Istanbul</option>
+                        <option value="">Jakarta</option>
+                    </select>
+
+                </div>
+
+                <div class="form-floating p-2">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 200px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                </div>
+
             </div>
-            <div class="col-3"></div>
+            <div class="col-4"></div>
         </div>
 
     </div>
@@ -58,5 +84,10 @@ span {
 p {
     color: $SB_grigioscuro;
     font-size: 18px;
+}
+
+input, select {
+    background-color: $SB_grigio;
+    border-radius: 5px;
 }
 </style>
