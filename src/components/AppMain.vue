@@ -1,6 +1,7 @@
 <script>
 import MainJubotron from './MainJubotron.vue'
 import MainServices from './MainServices.vue'
+import MainCompany from './MainCompany.vue'
 export default {
     name: 'AppMain',
     data() {
@@ -10,7 +11,8 @@ export default {
     },
     components:{
         MainJubotron, 
-        MainServices       
+        MainServices,
+        MainCompany,     
     }
 
 }
@@ -22,9 +24,12 @@ export default {
 
     <MainServices></MainServices>
 
+    <MainCompany></MainCompany>
+
 </template>
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
 
 </style>
