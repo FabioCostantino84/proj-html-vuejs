@@ -21,7 +21,8 @@ export default {
                             </div>
                             <div class="card-body px-2">
                                 <h3 class="card-title"><span class="px-3">The</span> Company</h3>
-                                <p class="card-text py-3">For 12 years we have been providing audit and warranty, financial advice, risk advice, taxes and related services to select clients..</p>
+                                <p class="card-text py-3">For 12 years we have been providing audit and warranty, financial
+                                    advice, risk advice, taxes and related services to select clients..</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +90,7 @@ export default {
     width: 100%;
 }
 
-.container{
+.container {
     width: 70%;
     margin-right: -50px;
 }
@@ -119,8 +120,6 @@ span {
     color: $SB_grigiochiaro;
     background-color: $SB_verdeacqua_2_tras;
     border-radius: 5px;
-
-
 }
 
 p {
@@ -138,12 +137,7 @@ p {
     font-size: 20px;
 }
 
-.see_all {
-    padding-right: 10px;
-    padding-bottom: 50px;
-}
-
-.my_col{
+.my_col {
     margin-right: -40px;
 }
 
@@ -151,11 +145,6 @@ p {
     height: 100%;
     padding-top: 28px;
     padding-bottom: 30px;
-}
-
-img {
-    width: 16%;
-    fill: $SB_verdeacqua_1;
 }
 
 i {
@@ -169,7 +158,7 @@ h6 {
     font-size: 25px;
 }
 
-.my_button{
+.my_button {
     padding-top: 30px;
     padding-bottom: 50px;
 }
