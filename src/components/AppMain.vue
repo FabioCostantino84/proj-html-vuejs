@@ -3,6 +3,7 @@ import MainJubotron from './MainJubotron.vue'
 import MainServices from './MainServices.vue'
 import MainCompany from './MainCompany.vue'
 import MainProjects from './MainProjects.vue'
+import MainResults from './MainResults.vue'
 export default {
     name: 'AppMain',
     data() {
@@ -14,7 +15,8 @@ export default {
         MainJubotron, 
         MainServices,
         MainCompany, 
-        MainProjects,    
+        MainProjects,
+        MainResults,    
     }
 
 }
@@ -29,6 +31,8 @@ export default {
     <MainCompany></MainCompany>
 
     <MainProjects></MainProjects>
+
+    <MainResults></MainResults>
 
 </template>
 
