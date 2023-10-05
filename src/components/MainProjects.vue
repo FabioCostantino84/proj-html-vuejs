@@ -24,7 +24,7 @@ export default {
             </div>
             <!-- / title project -->
 
-            <div class="col-12 w-75 m-auto pt-3">
+            <div class="nav_col col-12 pt-3">
                 <nav class="nav d-flex justify-content-around align-items-center p-3">
                     <a class="nav-link highlight" href="#">ALL</a>
                     <a class="nav-link" href="#">INSTITUTIONAL</a>
@@ -41,7 +41,7 @@ export default {
                 <div class="card border-0 py-4">
                     <img src="../assets/img/project-1.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay text-center">
-                        <h5 class="card-title px-4">Academic professional program in social media</h5>
+                        <h5 class="card-title px-2">Academic professional program in social media</h5>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ export default {
                 <div class="card border-0 py-4">
                     <img src="../assets/img/project-2.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay text-center">
-                        <h5 class="card-title px-5">President's speech at the annual meeting</h5>
+                        <h5 class="card-title px-3">President's speech at the annual meeting</h5>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default {
                 <div class="card border-0 py-4">
                     <img src="../assets/img/project-3.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay text-center">
-                        <h5 class="card-title px-5">International business trip in Shanghai</h5>
+                        <h5 class="card-title px-2">International business trip in Shanghai</h5>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ export default {
                 <div class="card border-0 py-4">
                     <img src="../assets/img/project-4.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay text-center">
-                        <h5 class="card-title px-5">Technology workshop with education theme</h5>
+                        <h5 class="card-title px-2">Technology workshop with education theme</h5>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ export default {
                 <div class="card border-0 py-4">
                     <img src="../assets/img/project-5.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay text-center">
-                        <h5 class="card-title px-4">Donation of clothes and food to the partner NGO</h5>
+                        <h5 class="card-title px-2">Donation of clothes and food to the partner NGO</h5>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ export default {
                 <div class="card border-0 py-4">
                     <img src="../assets/img/project-6.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay text-center">
-                        <h5 class="card-title px-4">Confraternization of the procurement team</h5>
+                        <h5 class="card-title px-2">Confraternization of the procurement team</h5>
                     </div>
                 </div>
             </div>
@@ -99,24 +99,34 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.header_card {
-    color: $SB_verdeacqua_1;
-    font-weight: 700;
-    padding-top: 100px;
+.container{
+    width: 60%;
 }
 
 h3 {
-    font-weight: 900;
-    font-size: 53px;
+    font-weight: 800;
+    font-size: 45px;
     color: $SB_blu;
 }
 
 span {
-    color: $SB_verdeacqua_1;
+    color: $SB_verdeacqua_2;
     background-color: $SB_verdeacqua_2_tras;
     border-radius: 5px;
 
 
+}
+
+.header_card {
+    color: $SB_verdeacqua_2;
+    font-weight: 700;
+    padding-top: 100px;
+    font-size: 15px;
+}
+
+.nav_col{
+    width: 85%;
+    margin: auto;
 }
 
 a {
@@ -147,8 +157,8 @@ img{
 
 h5{
     font-weight: 600;
-    font-size: 25px;
-    padding-top: 305px;
+    font-size: 20px;
+    padding-top: 255px;
 }
 
 .row{
