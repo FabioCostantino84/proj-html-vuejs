@@ -14,7 +14,7 @@ export default {
     <div class="container bg-transparent">
         <div class="row">
             <div class="col-4">
-                <img src="../assets/svg/svg-7.svg" class="" alt="">
+                <img src="../assets/img/logo.PNG" class="" alt="">
             </div>
             <div class="col-8">
                 <nav class="nav d-flex justify-content-around align-items-center p-3">
